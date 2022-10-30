@@ -1,7 +1,6 @@
 html {
   font-size: 10px;
   background: url('./background.jpg') bottom center;
-  /* background-color: rgb(186, 145, 152); */
   background-size: cover;
 }
 
@@ -30,7 +29,11 @@ html {
   background: rgba(0, 0, 0, 0.4);
   color: white;
   text-shadow: 0 0 .5rem black;
-  font-size: 3.5rem;
+  font-size: 4rem;
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: 200;
 }
 
 .keys {
