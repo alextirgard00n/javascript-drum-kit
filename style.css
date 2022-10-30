@@ -10,18 +10,10 @@ html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-}
-
-.body {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center; */
 }
 
 .container {
@@ -31,8 +23,6 @@ html {
   align-items: center;
   align-content: center;
   height: 100vh;
-  /* margin: 0 auto; */
-  /* min-height: 100vh; */
 }
 
 .h1 {
@@ -45,9 +35,7 @@ html {
 
 .keys {
   display: flex;
-  /* flex: 1; */
-  flex-wrap: wrap;
-  /* min-height: 100vh; */
+  flex-wrap: nowrap;
   min-height: 40em;
   align-items: center;
   justify-content: center;
@@ -62,7 +50,7 @@ html {
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
-  width: 10rem;
+  width: 65px;
   text-align: center;
   color: white;
   background: rgba(0, 0, 0, 0.4);
